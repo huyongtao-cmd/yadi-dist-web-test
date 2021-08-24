@@ -1,0 +1,31 @@
+.el-page-header {
+  @block-width: 4px;
+  // 间距基准 20px
+  @gap-lg: 20px;
+  @gap-md: 14px;
+  @gap-sm: 8px;
+  .ant-page-header {
+    padding: 8px 12px;
+  }
+  .block {
+    position: relative;
+    display: block;
+    //   font-size: @card-head-font-size-sm;
+    text-indent: @block-width * 2;
+    width: 100%;
+    font-weight: 500;
+    color: #ec6303; /*字体样式*/
+    font-size: 14px;
+    line-height: 22px;
+    font-family: PingFangSC-Medium;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      height: 80%;
+      top: 10%;
+      width: @block-width;
+      background-color: #ec6303;
+    }
+  }
+}

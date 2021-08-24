@@ -1,0 +1,114 @@
+@normalFontSize: 12px; //定义默认字体大小
+@normalInputHeight: 28px; //默认高度
+#el_search {
+  .ant-btn-icon-only.ant-btn-sm {
+    height: @normalInputHeight;
+    width: @normalInputHeight;
+  }
+}
+.elform-title-container {
+  padding: 0 16px;
+  .elform-title {
+    @block-width: 4px;
+    // 间距基准 20px
+    position: relative;
+    display: block;
+    font-weight: bold;
+    //   font-size: @card-head-font-size-sm;
+    padding-left: 4px;
+    text-indent: @block-width * 2;
+    width: 100%;
+    color: #ec6303; /*字体样式*/
+    font-size: 16px;
+    line-height: 16px;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      height: 100%;
+      // top: 8%;
+      width: @block-width;
+      border-radius: 2px;
+      background-color: #ec6303;
+    }
+  }
+}
+.ant-form-item {
+  margin-bottom: 6px !important;
+  z-index: 0;
+  .ant-form-item-explain {
+    position: absolute;
+    padding: 2px 8px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+    white-space: nowrap;
+    z-index: 1;
+    line-height: 1.524;
+    transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    margin-top: 28px;
+    clear: both;
+  }
+  .ant-form-item-explain-error {
+    // display: none;
+  }
+}
+.ant-form-item-label > label {
+  font-size: @normalFontSize;
+}
+.ant-form-small .ant-form-item-label > label {
+  height: @normalInputHeight;
+}
+
+.ant-form-item {
+  .ant-cascader-picker {
+    height: @normalInputHeight;
+    border-radius: 2px;
+    font-size: @normalFontSize;
+  }
+}
+.ant-form-item input {
+  height: @normalInputHeight;
+  border-radius: 2px;
+  font-size: @normalFontSize;
+}
+.ant-picker-input {
+  height: 18px;
+  font-size: @normalFontSize;
+}
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: @normalInputHeight;
+  align-items: center;
+  border-radius: 2px;
+  font-size: @normalFontSize;
+}
+.ant-cascader-picker-label {
+  font-size: @normalFontSize;
+}
+.ant-form-item .ant-mentions,
+.ant-form-item textarea.ant-input {
+  font-size: @normalFontSize;
+}
+.ant-picker-input > input {
+  font-size: @normalFontSize !important;
+}
+.action-button {
+  font-size: 12px;
+}
+.ant-picker-range {
+  padding: 4px 7px 4px !important;
+}
+.ant-form-item {
+  font-size: 12px;
+}
+.ant-tree {
+  font-size: 12px !important;
+}
+
+.ant-storeControl {
+  .ant-form-item-control {
+    max-width: 60% !important;
+  }
+}

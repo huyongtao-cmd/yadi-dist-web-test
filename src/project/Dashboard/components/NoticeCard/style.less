@@ -1,0 +1,47 @@
+.cardBase {
+  min-width: 560px;
+  height: 80px;
+  background: #fafafa;
+  border-radius: 30px;
+  padding: 15px 15px;
+  padding-right: 30px;
+  .img {
+    min-width: 50px;
+  }
+  .textZone {
+    margin-left: 15px;
+    .textTitle {
+      font-family: PingFangSC-Regular;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .textInfo {
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #c8c8c8;
+      font-weight: 400;
+    }
+  }
+}
+.flex-row {
+  display: flex;
+}
+.flex-content-between {
+  justify-content: space-between;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-fix {
+  flex: 0;
+}
+
+.flex-auto {
+  flex: 1;
+}
+
+.cardBase:hover {
+  cursor: pointer;
+  color: rgb(248, 116, 42);
+  box-shadow: 0 0 3px 0 rgb(248, 116, 42);
+}

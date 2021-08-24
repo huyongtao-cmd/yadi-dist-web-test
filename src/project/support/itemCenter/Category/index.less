@@ -1,0 +1,126 @@
+@import '@/style/variable.less';
+
+.item-center-category-wrapper {
+  display: flex;
+  background-color: #f0f3fa;
+  font-size: 12px;
+  .buttonLine {
+    .ant-btn {
+      height: 28px;
+      line-height: 28px;
+      padding: 0px;
+    }
+  }
+
+  .ant-btn > .anticon + span,
+  .ant-btn > span + .anticon {
+    margin-left: 3px;
+  }
+  .ant-card-bordered {
+    border: none;
+  }
+
+  .left-side-menu {
+    width: 400px;
+    min-height: calc(100vh - 64px);
+    background-color: #fff;
+    padding-top: 10px;
+
+    .ant-card-body {
+      font-size: 12px;
+      .ant-input-group .ant-input {
+        font-size: 12px;
+      }
+      .ant-btn-icon-only {
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+    .tag-list {
+      width: 100%;
+      background-color: #fff;
+      padding: 0 16px;
+      font-size: 12px;
+      margin-top: 10px;
+
+      .ant-tree-treenode-selected::before {
+        background-color: #fff !important;
+      }
+
+      .ant-tree-node-selected {
+        color: #000000d9 !important;
+        background-color: #f0f3fa !important;
+      }
+
+      .ant-tree-switcher {
+        color: #000 !important;
+      }
+    }
+  }
+
+  .list-content {
+    width: 100%;
+    margin-left: 6px;
+
+    .btn-item {
+      margin-right: 8px;
+
+      &.approve {
+        background-color: #13a8a8;
+        color: #ffffff;
+      }
+    }
+
+    .ant-card-body {
+      font-size: 12px;
+      padding: 0;
+    }
+    .buttonLine {
+      height: 40px;
+      background: #f5f5f5;
+      display: flex;
+      padding: 0 16px;
+      align-items: center;
+      .ant-btn {
+        padding: 0 8px;
+      }
+    }
+    .item-center-category-wrapper .list-content .btn-item {
+      height: 28px;
+    }
+    .empty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 20vh;
+
+      .ant-empty-description {
+        color: #aaa;
+      }
+    }
+  }
+
+  .addition-btn-group {
+    float: right;
+    padding-right: 20px;
+
+    .ant-btn {
+      margin-right: 12px;
+    }
+  }
+  .detail-info-form {
+    padding: 6px;
+  }
+  #base .ant-card-body {
+    padding: 6px;
+  }
+  .ant-form-item-extra {
+    font-size: 12px;
+  }
+  .ant-select-show-search.ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 28px;
+  }
+}

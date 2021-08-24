@@ -1,0 +1,80 @@
+/* 全局的整体样式 */
+@globalFontStyle: 12px;
+
+* {
+  // font-size: 12px;
+  // font-family: 'helvetica neue', arial, helvetica, 'Hiragino Sans GB',
+  //   'STHeiti Light', 'SimSun', sans-serif;
+}
+.ant-pagination,
+.ant-select,
+.ant-form label,
+.ant-input-group-addon {
+  font-size: @globalFontStyle;
+}
+
+.el-btn-default {
+  box-shadow: none;
+  text-shadow: none;
+  margin-right: 8px;
+  height: 28px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-size: 12px;
+  background-image: linear-gradient(#ffffff, #e5e5e5);
+  color: black;
+  &:hover {
+    color: #ec6303;
+    border-color: #ec6303;
+  }
+}
+.ant-modal {
+  .ant-modal-content {
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  .ant-modal-header {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    padding: 0px 0px 0px 16px;
+    .ant-modal-title {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.8);
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  .ant-modal-close {
+    height: 40px;
+    .ant-modal-close-x {
+      height: 40px;
+      line-height: 40px;
+      font-size: 12.3px;
+    }
+  }
+  .ant-modal-footer {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px 0 0;
+    button {
+      height: 28px;
+      font-size: 12px;
+    }
+  }
+}
+
+// .ant-checkbox-checked .ant-checkbox-inner {
+//   background-color: #111111;
+//   border-color: #ec6303;
+// }
+// .ant-btn-primary {
+//   color: #fff;
+//   background: #ec6303;
+//   border-color: #ec6303;
+// }
+// .el-btn-defaul:active {
+//   color: rgba(0, 0, 0, 0.8);
+//   background: #fff;
+//   border-color: #f5f5f5;
+// }

@@ -1,0 +1,35 @@
+
+{
+  "code": 200,
+  "message": "操作成功",
+  "success": true,
+  "data":[
+    {
+      "id":"1",
+      "name": "name1",
+      "code": "code1",
+      "status": "fahuo"
+    }, {
+      "id":"2",
+      "name": "name2",
+      "code": "code2",
+      "status": "close"
+    }, {
+      "id":"3",
+      "name": "name3",
+      "code": "code3",
+      "status": "genzong"
+    }, {
+      "id":"4",
+      "name": "name3",
+      "code": "code3",
+      "status": "shanchu"
+    }, {
+      "id":"5",
+      "name": "name3",
+      "code": "code3",
+      "status": "fahuo"
+    }
+  ]
+}
+

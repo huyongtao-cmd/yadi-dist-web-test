@@ -1,0 +1,308 @@
+.elSearchTable-proxyButton-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 8px 16px;
+  .proxy-button-left {
+    margin-right: 8px;
+    font-size: 12px;
+    height: 28px;
+    box-shadow: none;
+  }
+  .proxy-button-right {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+  .proxy-button-right {
+    // margin-right: 16px;
+    margin-left: auto;
+  }
+  .ant-btn-group {
+    height: 28px;
+    box-shadow: none;
+    button {
+      height: 28px;
+      box-shadow: none;
+    }
+  }
+  .screening-button {
+    height: 28px;
+    box-shadow: none;
+    background: #faab0f;
+    color: #ffff;
+    padding-right: 16px;
+  }
+  .ant-btn {
+    font-size: 12px;
+  }
+}
+.elSearchTable-queryForm-container {
+  height: fit-content;
+  padding-top: 6px;
+  background: #ffff;
+  border-bottom: 6px solid #f0f3fa;
+  .ant-form-item {
+    margin-bottom: 6px;
+  }
+  .el-searchtable-form {
+    // display: flex;
+    // align-items: center;
+    height: 100%;
+  }
+  .el-searchtable-form-collapse {
+    height: 5px;
+    background-color: rgb(163, 159, 159);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ant-col {
+    height: 34px;
+    display: initial;
+  }
+}
+.elSearchTable-actionButton-container {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background: #ffff;
+  padding: 6px 16px 6px 16px;
+  .action-button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 4px 8px;
+    margin-right: 8px;
+    height: 28px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    font-size: 12px;
+    background-image: linear-gradient(#ffffff, #e5e5e5);
+    color: black;
+    &:hover {
+      color: #ec6303;
+      border-color: #ec6303;
+    }
+    .ant-image {
+      margin-right: 6px;
+      vertical-align: -0.125em;
+    }
+  }
+
+  .ant-btn[disabled] {
+    color: #bfbfbf;
+    background-color: #f5f5f5;
+    background-image: none;
+    &:hover {
+      border-color: #d9d9d9;
+    }
+    svg {
+      color: #bfbfbf;
+    }
+  }
+  // .elSearchTable-actionButton-container-right {
+  //   // margin-left: auto;
+  // }
+  .elSearchTable-actionButton-container-right {
+    margin-left: auto;
+  }
+}
+.elSearchTable-description-container {
+  height: fit-content;
+  padding: 0 10px;
+}
+.elSearchTable-container {
+  // max-height: 300px;
+  // position: relative;
+  // height: fit-content;
+  // overflow: scroll;
+}
+.elSearchTable {
+  height: fit-content;
+  padding: 0px 16px;
+  background: #ffff;
+
+  tbody {
+    // margin-bottom: 30px;
+  }
+  .ant-pagination {
+    // position: absolute;
+    // bottom: 0;
+    height: 22px;
+    margin: 0;
+    margin: 6px 0;
+    justify-content: flex-start;
+    .ant-pagination-next {
+      height: 22px !important;
+    }
+    .ant-pagination-prev {
+      height: 22px !important;
+    }
+    .ant-pagination-total-text {
+      height: 22px !important;
+    }
+    .el-pagination-columnconfig {
+      border: none;
+      margin-right: 10px;
+    }
+    .ant-pagination-item {
+      height: 22px !important;
+    }
+    .ant-select-selector {
+      height: 22px !important;
+    }
+    .ant-pagination-options-quick-jumper {
+      height: 22px !important;
+      input {
+        height: 22px !important;
+      }
+    }
+  }
+
+  /*单数行颜色*/
+  .singular-row {
+    background: #fff;
+  }
+  /*双数行颜色*/
+  .dual-row {
+    background: #fafafa;
+  }
+  .row-selected {
+    background-color: #fffbe6;
+  }
+  /*鼠标划过 行背景颜色*/
+  .ant-table-tbody > tr:hover:not(.ant-table-expanded-row) > td {
+    background-color: #f0f3fa !important;
+  }
+  .ant-table-body .ant-table-row-hover {
+    background: #f0f3fa !important;
+  }
+  .ant-table-body .ant-table-row-hover > td {
+    background: #f0f3fa !important;
+  }
+  /*鼠标划过 固定列背景颜色*/
+  .ant-table-fixed .ant-table-row-hover {
+    background: #f0f3fa !important;
+  }
+  .ant-table-fixed .ant-table-row-hover > td {
+    background: #f0f3fa !important;
+  }
+  /*鼠标选中颜色*/
+  .ant-table-tbody > tr.ant-table-row-selected td {
+    background-color: #fffbe6;
+  }
+  .ant-table-small .ant-table-thead > tr > th {
+    background: #f0f3fa !important;
+    font-weight: bold;
+  }
+  .ant-table-thead > tr > th {
+    border-bottom: 1px solid #e5e5e5 !important;
+  }
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > thead
+    > tr
+    > th,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > thead
+    > tr
+    > th,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > thead
+    > tr
+    > th,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > tbody
+    > tr
+    > td,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > tbody
+    > tr
+    > td,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > tbody
+    > tr
+    > td,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > tfoot
+    > tr
+    > th,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > tfoot
+    > tr
+    > th,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > tfoot
+    > tr
+    > th,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-content
+    > table
+    > tfoot
+    > tr
+    > td,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-header
+    > table
+    > tfoot
+    > tr
+    > td,
+  .ant-table.ant-table-bordered
+    > .ant-table-container
+    > .ant-table-body
+    > table
+    > tfoot
+    > tr
+    > td {
+    border-right: 1px solid #e5e5e5 !important;
+  }
+  .ant-table.ant-table-small {
+    font-size: 12px;
+  }
+}
+.elSearchTable-tab-container {
+  height: fit-content;
+}
+.ant-cascader-menus {
+  font-size: 12px; //cascader字体
+}
+.ant-select-item {
+  font-size: 12px;
+}
+button,
+html [type='button'],
+[type='reset'],
+[type='submit'] {
+  font-size: 12px;
+}

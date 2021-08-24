@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-generate-green</title>
+    <g id="B2C-PC模版" stroke="none" stroke-width="1">
+        <g id="按钮图标" transform="translate(-291.000000, -632.000000)" >
+            <g id="icon-generate-green" transform="translate(291.000000, 632.000000)">
+                <path d="M0,3.75 L5.25,6.49410774 L5.25,12 L0,9.25589226 L0,3.75 Z M12,3.75 L12,9.24455774 L6.75,12 L6.75,6.50551043 L12,3.75 Z M0.75,4.98825 L0.75,8.80125 L4.5,10.761 L4.5,6.94875 L0.75,4.98825 Z M11.25,4.98975 L7.5,6.9585 L7.5,10.75875 L11.25,8.79075 L11.25,4.98975 Z M5.98148568,0 L11.625,2.63339991 L6.018434,5.25 L0.375,2.61653516 L5.98148568,0 Z M5.98125,0.82725 L2.148,2.616 L6.018,4.422 L9.85125,2.63325 L5.98125,0.82725 Z" id="平台-面"></path>
+            </g>
+        </g>
+    </g>
+</svg>

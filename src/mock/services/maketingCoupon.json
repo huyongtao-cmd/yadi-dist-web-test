@@ -1,0 +1,127 @@
+{
+    "code":200,
+    "message":"操作成功",
+    "success":true,
+    "data":[
+        {
+            "id": 1000001,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000002,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000003,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000004,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000005,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000006,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000007,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000008,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000009,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },{
+            "id": 1000010,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        },
+        {
+            "id": 1000011,
+            "couponName": "全品类通用券",
+            "couponCode": "全场赠券",
+            "useItem": "全部商品",
+            "threshold": "满100元可用",
+            "parValue": "100元",
+            "platform": "全平台",
+            "valid": "2017-01-31至2017-08-19",
+            "status": "未过期"
+        }
+    ]
+}

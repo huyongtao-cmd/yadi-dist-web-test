@@ -1,0 +1,52 @@
+# Default values for choerodon-front.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: registry.elitescloud.com/el-nrp/nrp2-web
+  pullPolicy: Always
+
+logs:
+  parser: nginx
+
+service:
+  enabled: false
+  port: 80
+  type: ClusterIP
+  name: choerodon-front
+
+ingress:
+  enabled: false
+  host: choerodon.example.com
+
+env:
+  open:
+    API_HOST: http://gateway.example.com
+    WEBSOCKET_SERVER: ws://ws.example.com
+    FILE_SERVER: http://minio.example.com
+    COOKIE_SERVER: http://choerodon.example.com
+    DEVOPS_HOST: ws://devops.choerodon.example.com
+    BUZZ_WEBSOCKET_URL: ws://buzz.example.com
+    CLIENT_ID: choerodon
+    FEEDBACK_TOKENS:
+      agile: 
+      iam: 
+    HTTP: http
+    LOCAL: false
+    CUSTOM_THEME_COLOR: undefined
+    EMAIL_BLACK_LIST: qq.com,gmail.com,sina.com,163.com,sina.cn,126.com,yeah.net,189.cn,foxmail.com,msn.cn,hotmail.com,outlook.com,yahoo.com,139.com
+
+    
+resources: 
+  # We usually recommend not to specify default resources and to leave this as a conscious
+  # choice for the user. This also increases chances charts run on environments with little
+  # resources,such as Minikube. If you do want to specify resources,uncomment the following
+  # lines,adjust them as necessary,and remove the curly braces after 'resources:'.
+  limits:
+    # cpu: 100m
+    # memory: 2Gi
+  requests:
+    # cpu: 100m
+    # memory: 1Gi

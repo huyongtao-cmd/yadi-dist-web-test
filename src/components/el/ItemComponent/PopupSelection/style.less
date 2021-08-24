@@ -1,0 +1,21 @@
+/*
+ * 其他页面使用Popover和Popconfirm时样式被覆盖，所以在这里给div加类名popupSelection
+ */
+.popupSelection {
+  .ant-popover-arrow {
+    border: none;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  .ant-popover-content {
+    // position: absolute;
+    top: 0 !important;
+
+    .ant-pro-table-search {
+      height: 0 !important;
+      padding: 0 !important;
+    }
+  }
+  .ant-popover {
+    top: 20px !important;
+  }
+}

@@ -1,0 +1,49 @@
+// @import (reference) '../../styles/variables.less';
+
+.card {
+  // 色块大小
+  @block-width: 4px;
+  // 间距基准 20px
+  @gap-lg: 20px;
+  @gap-md: 14px;
+  @gap-sm: 8px;
+
+  :global {
+    .ant-card-head {
+      padding: @gap-md @gap-lg 0;
+      // color: @heading-color;
+      font-weight: bold;
+      border: none;
+    }
+    .ant-card-head-title {
+      padding: 0 0 @gap-md;
+    }
+    .ant-card-body {
+      margin: @gap-sm;
+      padding: 0 @gap-lg @gap-lg;
+    }
+  }
+
+  .block {
+    position: relative;
+    display: block;
+    font-weight: bold;
+    //   font-size: @card-head-font-size-sm;
+    padding-left: 4px;
+    text-indent: @block-width * 2;
+    width: 100%;
+    color: #ec6303; /*字体样式*/
+    font-size: 16px;
+    line-height: 16px;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      height: 100%;
+      // top: 8%;
+      width: @block-width;
+      border-radius: 2px;
+      background-color: #ec6303;
+    }
+  }
+}

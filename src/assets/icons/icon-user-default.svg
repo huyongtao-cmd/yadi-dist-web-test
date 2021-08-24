@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-user-default</title>
+    <g id="3.0管理端B2C" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.1.3网格-员-详情" transform="translate(-131.000000, -164.000000)">
+            <g id="编组-3" transform="translate(0.000000, 104.000000)">
+                <g id="icon-user-default" transform="translate(131.000000, 60.000000)">
+                    <circle id="椭圆形" fill-opacity="0.1" fill="#000000" cx="32" cy="32" r="32"></circle>
+                    <g id="编组" transform="translate(16.000000, 16.000000)" fill="#FFFFFF" fill-opacity="0.8">
+                        <g id="Icon/User">
+                            <path d="M15.9999156,16.8421053 C20.6782531,16.8421053 24.4851859,13.0653524 24.4848485,8.42111636 C24.4848485,3.77709275 20.6784218,0 15.9999156,0 C11.3215782,0 7.51515152,3.77840976 7.51515152,8.42111636 C7.51515152,13.0638654 11.3215782,16.8421053 15.9999156,16.8421053 Z M19.202945,17.6842105 L12.7962049,17.6842105 C6.84256546,17.6842105 2,22.4486792 2,28.3068317 L2,28.9374306 C2,32 6.76499431,32 12.7962049,32 L19.202945,32 C24.9967241,32 30,32 30,28.9374306 L30,28.3068317 C30,22.4499959 25.1566269,17.6842105 19.202945,17.6842105 Z" id="icon_user"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
