@@ -37,23 +37,23 @@ const basicHpOperations = ((maths) =>
       curry(compose(parseFloat, (bn) => bn.toString(), maths[operation]))
     ])
   ))({
-  // 高精度加法
-  add: (sbj: MType, acc: MType) => {
-    return add(bignumber(sbj), bignumber(acc));
-  },
-  // 高精度减法
-  sub: (sbj: MType, acc: MType) => {
-    return subtract(bignumber(sbj), bignumber(acc));
-  },
-  // 高精度乘法
-  mul: (sbj: MType, acc: MType) => {
-    return multiply(bignumber(sbj), bignumber(acc));
-  },
-  // 高精度除法
-  div: (sbj: MType, acc: MType) => {
-    return divide(bignumber(sbj), bignumber(acc));
-  }
-});
+    // 高精度加法
+    add: (sbj: MType, acc: MType) => {
+      return add(bignumber(sbj), bignumber(acc));
+    },
+    // 高精度减法
+    sub: (sbj: MType, acc: MType) => {
+      return subtract(bignumber(sbj), bignumber(acc));
+    },
+    // 高精度乘法
+    mul: (sbj: MType, acc: MType) => {
+      return multiply(bignumber(sbj), bignumber(acc));
+    },
+    // 高精度除法
+    div: (sbj: MType, acc: MType) => {
+      return divide(bignumber(sbj), bignumber(acc));
+    }
+  });
 // 将内部计算解构成4种计算 - 注意 为了防止精度丢失，全部为string类型返回
 const { add: hpAdd, sub, mul, div } = basicHpOperations;
 // 包裹一层，给个初值
@@ -113,7 +113,17 @@ const parseIfNumeric = (candidate: any) =>
  * 生成一个不重复的ID(数字类型，以便于后端接收)
  * 该方法与stringUtils中的getUid不可混用
  */
-const genFakeId = (sign = 1) => sign * ~~(Math.random() * 100000000);
+const genFakeId = (sign = 1) => sign * ~~(Math.random() * 100000000); // '~~' ~是按位取反的意思，计算机里面处理二进制数据时候的非，~~就是再转回来，利用两个按位取反的符号，进行类型的转换，转换成数字符号。
+/***
+~~false === 0
+~~true === 1
+~~undefined === 0
+~~!undefined === 1
+~~null === 0
+~~!null === 1
+~~"" === 0
+~~!"" === 1
+*/
 const getSnowFlake = SnowFlake.getSnowFlake;
 
 export default {
