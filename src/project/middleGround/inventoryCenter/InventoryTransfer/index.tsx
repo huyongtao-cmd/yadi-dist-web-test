@@ -162,7 +162,7 @@ class Transfer extends React.Component<any, any> {
         <ElSearchTable
           bordered
           rowKey='id'
-          scroll={{ x: 'max-content' }}
+          scroll={{ x: 'max-content' }}  // width:max-content表示采用内部元素宽度值最大的那个元素的宽度作为最终容器的宽度。如果出现文本，则相当于文本不换行
           onRef={(tableRef) => {
             this.setState({
               tableRef: tableRef
